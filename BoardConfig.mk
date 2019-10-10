@@ -21,6 +21,7 @@ DEVICE_PATH := device/xiaomi/santoni
 -include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
 # Camera
+TARGET_USES_AOSP := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_USES_MEDIA_EXTENSIONS := true
